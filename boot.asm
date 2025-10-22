@@ -1,3 +1,7 @@
+; para executar é só usar o nasm e o qemu i386
+; nasm -f bin boot.asm -o boot.bin
+; qemu-system-i386 -fda boot.bin
+
 [ORG 0x7C00]
 BITS 16
  
